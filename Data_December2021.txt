@@ -1,0 +1,168 @@
+#region:Bag_Initial_Contents
+BigBag_Manish
+		{	//Initial_Point_bengaluru
+			Jeans : 3 
+			Good T-Shirt : 4
+			Casual T-Shirt : 3
+			Casual Pajama : 3
+			Suit : 3 
+				{
+					1: (Manish) Engagement_+_Reception_Suit (Bright_Blue)
+					1: (Manish) Yady's-Marriage (Navy_Blue)
+					1: (Papa) Engagement_Suit
+				}
+			Sherwani Set  : 2
+				{
+					1: (Manish) Pagdi + Juti + Sherwani + Chudidar + Dupatta + Socks
+					1: (Papa) Juti + Sherwani + Chudidar
+				}			
+			Sweater : 1
+			Jacket : 1
+			Gloves : 1
+			Thermals (pair): 2 
+			Undies (pair): 8 pair 
+			Socks : 8 pair 
+			Shoes : 2
+				{
+					1: Formal- Brown Shoes
+					1: Casual- Sports Shoes
+				}
+			Sandals: 1 pair
+			Slippers:  1 pair
+			Sunglasses: 1
+		}
+		
+BigBag_Mumma
+		{	//Initial_Point_bengaluru
+			Sarees: 4
+				{
+					1: (Mumma) Engagement_Saree
+					1: (Mumma) Marriage_Saree
+					1: (MummyJi) Saree
+					1: (TaiJi) Saree
+				}
+			Sandals: 1
+			Shoes: 1
+			
+				
+		}
+		
+BigBag_Neha
+		{	//Initial_Point_Lucknow
+			Sarees : 4
+			{
+				1: Heavy to be used at Yady's-Marriage
+				3x: Normal_Sarees
+			}
+			Jeans : 2
+			Top : 3
+			Jacket : 1
+			Thermals (pair) : 2
+			Casual Top : 2
+			Casual Pajama : 2
+			Sweater : 1
+			Gloves : 1
+			Undies (pair): 5 pair 
+			Socks : 5 pair 
+			Shoes : 1 Casual Shoes
+			Sandals : 1 			
+			Make-up Bag : 1
+		}
+		
+
+SmallBag_Neha
+	{	//Initial_Point_Lucknow
+		Casual Pajama : 1
+		Casual Top : 1
+		Jeans : 1
+		Top : 2
+		Undies (pair): 3 pair 
+		Socks : 3 pair 
+		Slippers :  1 
+		Sunglasses : 1		
+	}
+
+BigBag_Papa
+		{
+			//Any_Existing_Contents
+		}
+
+#region:Bag_Content_Modifications_during_Travel
+Bengaluru_Lucknow
+	{
+		
+		BigBag_Manish{...}
+		BigBag_Mumma{...}		
+	}
+	
+
+Lucknow_Orissa
+	{
+		BigBag_Manish{...}
+		BigBag_Mumma{...}
+		BigBag_Neha{...}
+		BigBag_Papa{...}	
+		SmallBag_Neha{...}
+	}
+
+Orissa_Dehradun_Masoorie_Bengaluru
+	{
+		BigBag_Neha{...}
+		BigBag_Manish
+		{
+			//Removing_Sherwani_Suit_to_be_added_to_Papa_and_Mumma's_BigBags
+			- Suit : 1
+				{
+					1: (Papa) Engagement_Suit
+				}
+			- Sherwani Set  : 2
+				{
+					1: (Manish) Pagdi + Juti + Sherwani + Chudidar + Dupatta + Socks
+					1: (Papa) Juti + Sherwani + Chudidar
+				}
+			//Moving_Manish's_clothes_to_smallBag_Neha
+			- Casual Pajama : 1
+			- Casual T-shirt : 1
+			- Jeans : 1
+			- T-shirt : 2
+			- Undies (pair): 3 pair 
+			- Socks : 3 pair 
+			- Slippers :  1 
+			- Sunglasses : 1
+		}
+		SmallBag_Neha
+		{
+			//Adding_Manish's_Clothes
+			+ Casual Pajama : 1
+			+ Casual T-shirt : 1
+			+ Jeans : 1
+			+ T-shirt : 2
+			+ Undies (pair): 3 pair 
+			+ Socks : 3 pair 
+			+ Slippers :  1 
+			+ Sunglasses : 1	
+		}
+	}
+
+Orissa_Bengaluru
+	{
+		BigBag_Mumma
+		{
+			+ Sherwani Set  : 1
+				{
+					1: (Manish) Pagdi + Juti + Sherwani + Chudidar + Dupatta + Socks					
+				}	
+		}
+		BigBag_Papa
+		{
+			+ Suit : 1
+				{
+					1: (Papa) Engagement_Suit
+				}
+			+ Sherwani Set  : 1
+				{
+					1: (Papa) Juti + Sherwani + Chudidar
+				}	
+		}
+		
+	}
