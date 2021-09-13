@@ -8,7 +8,7 @@ BigBag_Manish
 			Suit : 3 
 				{
 					1: (Manish) Engagement_+_Reception_Suit (Bright_Blue)
-					1: (Manish) Yady's-Marriage (Navy_Blue)
+					1: (Manish) Yady's-Marriage (TBD)
 					1: (Papa) Engagement_Suit
 				}
 			Sherwani Set  : 2
@@ -30,19 +30,45 @@ BigBag_Manish
 			Sandals: 1 pair
 			Slippers:  1 pair
 			Sunglasses: 1
+			Towel : 1
+			Handkerchief : 5
+			First-Aid-Kit : containing
+				{
+					1: PCM
+					1: Neosprin
+					1: Soframycin					
+					1: Odomos
+					1: Pudin-Hara-Leaf
+					1: Asprin-Leaf
+					10: Band-Aid
+					1: Bandage
+				}
+			Essentials-Kit : containing
+				{
+					1: Moisturizer
+					1: Comb
+					1: Deodrant
+					1: Perfume
+					5: Paper-Soap
+					1: Shampoo
+					1: Soap
+					1: ToothBrush
+					1: Toothpaste					
+				}
 		}
 		
 BigBag_Mumma
 		{	//Initial_Point_bengaluru
-			Sarees: 4
+			Sarees: 2
 				{
 					1: (Mumma) Engagement_Saree
 					1: (Mumma) Marriage_Saree
-					1: (MummyJi) Saree
-					1: (TaiJi) Saree
+					1: Yellow_Saree
+					2: Normal_Daily_Use_Saree
 				}
 			Sandals: 1
 			Shoes: 1
+			Towel : 1
 			
 				
 		}
@@ -52,7 +78,7 @@ BigBag_Neha
 			Sarees : 4
 			{
 				1: Heavy to be used at Griha-Pravesh @ Village and also can be used at Yady's-Marriage
-				3x: Normal_Sarees
+				3: Normal_Daily_Use_Saree
 			}
 			Jeans : 2
 			Top : 3
@@ -69,6 +95,7 @@ BigBag_Neha
 			Make-up Bag : 1
 			Shawl : 1	
 			Scarf : 1
+			Towel : 1
 		}
 		
 
