@@ -51,7 +51,7 @@ BigBag_Neha
 		{	//Initial_Point_Lucknow
 			Sarees : 4
 			{
-				1: Heavy to be used at Yady's-Marriage
+				1: Heavy to be used at Griha-Pravesh @ Village and also can be used at Yady's-Marriage
 				3x: Normal_Sarees
 			}
 			Jeans : 2
@@ -67,6 +67,8 @@ BigBag_Neha
 			Shoes : 1 Casual Shoes
 			Sandals : 1 			
 			Make-up Bag : 1
+			Shawl : 1	
+			Scarf : 1
 		}
 		
 
